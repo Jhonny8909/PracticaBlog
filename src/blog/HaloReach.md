@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña del libro 1
-tags: libros
+title: Halo Reach
+tags: FPS
 ---
 
 # {{title}}

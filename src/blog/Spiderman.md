@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña de la serie 2
-tags: series
+title: Spiderman PS4
+tags: accion
 ---
 
 # {{title}}

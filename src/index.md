@@ -1,31 +1,33 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Mis videojuegos favoritos.
 ---
 
 # {{ title }}
+En este blog hablare sobre mis videojuegos favoritos dividienlos en 3 categorias de genero que mas me gustan.
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
+## Generos
 
-[Acerca]({{ '/acerca' | url }})
+### First Person Shooter
 
-## Artículos de mi Blog
+{% for videojuego in collections.FPS %}
 
-### Categoría Libros
-
-{% for libro in collections.libros %}
-
-- [{{libro.data.title}}]({{ libro.url | url }})
+- [{{videojuego.data.title}}]({{ videojuego.url | url }})
 
 {% endfor %}
 
-### Categoria Series
+### Accion
 
-{% for serie in collections.series %}
+{% for videojuego in collections.accion %}
 
-- [{{serie.data.title}}]({{ serie.url | url }})
+- [{{videojuego.data.title}}]({{ videojuego.url | url }})
+
+{% endfor %}
+
+### RPG
+
+{% for videojuego in collections.RPG %}
+
+- [{{videojuego.data.title}}]({{ videojuego.url | url }})
 
 {% endfor %}
