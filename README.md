@@ -2,4 +2,4 @@
 
 Practica 6
 
-[Git Pages]({{ 'https://jhonny8909.github.io/PracticaBlog/' | url }})
+[GitPage]([Link](https://shikatastrophe.github.io/Par2Prac6/))
