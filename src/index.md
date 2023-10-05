@@ -4,6 +4,7 @@ title: Mis videojuegos favoritos.
 ---
 
 # {{ title }}
+
 En este blog hablare sobre mis videojuegos favoritos dividienlos en 3 categorias de genero que mas me gustan.
 
 ## Generos
@@ -31,3 +32,5 @@ En este blog hablare sobre mis videojuegos favoritos dividienlos en 3 categorias
 - [{{videojuego.data.title}}]({{ videojuego.url | url }})
 
 {% endfor %}
+
+[Acerca de mi]({{ '/AcercaDeMi' | url }})
