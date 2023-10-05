@@ -2,4 +2,4 @@
 
 Practica 6
 
-[GitPage]([Link](https://shikatastrophe.github.io/Par2Prac6/))
+[GitPage](https://jhonny8909.github.io/PracticaBlog/)
